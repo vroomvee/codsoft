@@ -23,6 +23,7 @@ def add_calculation(symbol):
 
 
 root=tk.Tk()
+root.title("Calculator")
 root.geometry("300x275")
 text_result=tk.Text(root,height=2,width=16,font=("American Typewriter",24))
 text_result.grid(columnspan=5)
